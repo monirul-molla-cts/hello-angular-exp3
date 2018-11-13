@@ -1,0 +1,22 @@
+  
+  <!-- Add the following html to show the developer information-->
+  <p><span class="columnHeader">:::::::::::::::::::Structural Directive *ngFor :::::::::::::::::::::</span> </p>
+  <div *ngFor="let dev of devs">
+    <p><span class="bold">First Name:</span> {{dev.firstName}}</p>
+    <p><span class="bold">Last Name:</span> {{dev.lastName}}</p>
+    <p><span class="bold">Favorite Language:</span> {{dev.favoriteLanguage}}</p>
+    <p><span class="bold">Year Started:</span> {{dev.yearStarted}}</p>
+    <hr>
+  </div> 
+  <p><span class="columnHeader">:::::::::::::::::::Structural Directive *ngIf :::::::::::::::::::::</span> </p>
+  <div *ngIf="dev1">
+    <p><span class="bold">First Name:</span> {{dev1.firstName}}</p>
+    <p><span class="bold">Last Name:</span> {{dev1.lastName}}</p>
+    <p><span class="bold">Favorite Language:</span> {{dev1.favoriteLanguage}}</p>
+    <p><span class="bold">Year Started:</span> {{dev1.yearStarted}}</p>
+  </div> 
+  <p><span class="columnHeader">:::::::::::::::::::Normal Use of Component and Class :::::::::::::::::::::</span> </p>
+  <p><span class="bold">First Name:</span> {{dev.firstName}}</p>
+	<p><span class="bold">Last Name:</span> {{dev.lastName}}</p>
+	<p><span class="bold">Favorite Language:</span> {{dev.favoriteLanguage}}</p>
+	<p><span class="bold">Year Started:</span> {{dev.yearStarted}}</p>    
